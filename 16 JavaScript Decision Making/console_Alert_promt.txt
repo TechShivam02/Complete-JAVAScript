@@ -1,0 +1,35 @@
+console.log("ffgfd");
+VM826:1 ffgfd
+undefined
+console.log("fefef " ,2323, true);
+VM965:1 fefef  2323 true
+undefined
+console.warn("wat=rning you");
+VM1067:1 wat=rning you
+(anonymous) @ VM1067:1
+undefined
+console.error("Hemlo world");
+VM1227:1 Hemlo world
+(anonymous) @ VM1227:1
+undefined
+alert("dfdf");
+undefined
+prompt("Enter a number : ")
+'23'
+let num = prompt("Enter a num : ");
+undefined
+console.log(num);
+VM1552:1 23
+undefined
+num+1
+'231'
+typeof num
+'string'
+parseInt(num);
+23
+typeof num
+'string'
+num = parseInt(num);
+23
+typeof num
+'number'

@@ -1,0 +1,35 @@
+"helloWorld".indexOf('2');
+-1
+"helloWorld".indexOf(2);
+-1
+"helloWorld".indexOf('f');
+-1
+"helloWorld".indexOf('llo');
+2
+"helloWorld".indexOf("ef");
+-1
+"helloWorld".indexOf("Wor");
+5
+"helloWorld".indexOf("Worf");
+-1
+"helloWorld".indexOf("Worf");
+-1
+"helloWorld".indexOf(" ");
+-1
+"helloWorld".indexOf("");
+0
+"helloWorld".indexOf(" ");  // find a space
+-1
+"hello World fefef".indexOf(" ");  // find a space
+5
+
+let pass= "shidfe@334434";
+if(pass.indexOf(" ") == -1){
+    console.log("Password valid , No Space " );
+}
+
+else{
+
+    console.log("Your password having a space );
+
+}

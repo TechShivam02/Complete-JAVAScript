@@ -1,0 +1,42 @@
+let firstName = "shivam"
+undefined
+firstName
+'shivam'
+let msg = "ede rggrg rhrghr"
+undefined
+msg
+'ede rggrg rhrghr'
+console.log(msg);
+VM276:1 ede rggrg rhrghr
+undefined
+let sds = "fferf efef rfefef';
+VM330:1 Uncaught SyntaxError: Invalid or unexpected token
+let gfrg = "frfr 2$#$#$%$%^%^% "
+undefined
+'23'
+'23'
+typeof '23'
+'string'
+typeof "23"
+'string'
+'frgrgr'
+'frgrgr'
+"hello how 'are' rrfrg"
+"hello how 'are' rrfrg"
+let dfr = "hello how 'are' rrfrg"
+undefined
+dfr
+"hello how 'are' rrfrg"
+let htht = 'rggrgrgg rgrg "rggrg"rg"rgg"rgrrg" rgrgrg'
+undefined
+htht
+'rggrgrgg rgrg "rggrg"rg"rgg"rgrrg" rgrgrg'
+console.log(htht
+VM824:1 Uncaught SyntaxError: missing ) after argument list
+console.log(htht);
+VM834:1 rggrgrgg rgrg "rggrg"rg"rgg"rgrrg" rgrgrg
+undefined
+let gtg = 'rggrg rgrgrg "rgrgrg" rgrgg'
+undefined
+gtg
+'rggrg rgrgrg "rgrgrg" rgrgg'

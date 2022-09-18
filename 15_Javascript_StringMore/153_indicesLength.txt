@@ -1,0 +1,48 @@
+let ans = "dffe efefef";
+undefined
+ans
+'dffe efefef'
+ans[2];
+'f'
+ans[99];
+undefined
+ans[0];
+'d'
+ans[-3];
+undefined
+let phone = "13224343434";
+undefined
+phone[0];
+'1'
+ans.length
+11
+ans.length();
+VM1207:1 Uncaught TypeError: ans.length is not a function
+    at <anonymous>:1:5
+(anonymous) @ VM1207:1
+"eefefef".length
+7
+1+3
+4
+"445" + "444"
+'445444'
+let firname= "frf";
+undefined
+let lastname= "eefrfr";
+undefined
+let anss = firname + lastname
+undefined
+anss
+'frfeefrfr'
+1 + "frr";
+'1frr'
+let rgrgr = 10  + "rrg";
+undefined
+rgrgr
+'10rrg'
+typeof 12
+'number'
+"2323" + 233
+'2323233'
+"323" + "323";
+'323323'
