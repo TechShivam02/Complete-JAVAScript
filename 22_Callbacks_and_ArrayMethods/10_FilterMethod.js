@@ -67,7 +67,9 @@ const goodMovies = movies.filter( (movie) => {
     return  movie.score > 80;
 })
 
+
 console.log(goodMovies);
+
 
 
 const badMovies = movies.filter( (movie) => {

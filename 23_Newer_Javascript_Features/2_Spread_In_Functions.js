@@ -20,7 +20,9 @@ console.log(Math.max(nums));
 console.log(Math.min(nums));
 
 console.log(Math.max(...nums));  // using the spread operator
-console.log(Math.min(...nums));
+console.log(Math.min(...nums))
+
+;console.log(...nums);
 
 
 console.log("");
