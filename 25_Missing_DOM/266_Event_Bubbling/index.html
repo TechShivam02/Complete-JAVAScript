@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+
+    <!-- Event Bubbling .... -->
+
+        <!-- call for current to parent -->
+
+
+        <!-- when clicked on btn , btn clikced , para clicked , section clicked-->
+        <!-- when clicked on para ,  para clicked , section clicked-->
+        <!-- when clicked on section  section clicked-->
+
+
+
+    <!-- To Stop , Event Bubbling :  event.stopPropgation(); -->
+
+    
+
+    <!--   Event Bubbling 
+
+
+
+        <section onclick="alert('section clicked')">    I' m Section , Click On Me
+
+            <p onclick="alert('para Clicked')"> I' m a Para , Click On Me
+
+                    <button onclick="alert('Button Clicked')">
+                        Button, Click On Me
+                    </button>
+            </p>
+        
+        </section>
+
+
+
+    -->
+
+
+        <section onclick="alert('section clicked')">    I' m Section , Click On Me
+
+            <p onclick="alert('para Clicked')"> I' m a Para , Click On Me
+
+                    <button id="btn" onclick="alert('Button Clicked')">
+                        Button, Click On Me
+                    </button>
+            </p>
+        
+        </section>
+
+
+
+        
+    
+        <script src="./index.js"></script>   <!-- Stop event bubbling -->
+</body>
+</html>
