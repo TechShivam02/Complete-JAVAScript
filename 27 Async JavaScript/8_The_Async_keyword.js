@@ -2,6 +2,7 @@
 async function hello(){
 }
 
+
 console.log(hello());  // return a promise
 
 */
@@ -71,6 +72,9 @@ hello()
 
 
 
+
+
+
  /*
  const login = async (username , paswrd) => {
 
@@ -89,7 +93,7 @@ hello()
  login("abcdef")  // passwrd not given , rejected  returned  , handled by catch
 
  .then((data)=>{
-    console.log("Looged IN");
+    console.log("Logged IN");
     console.log(data);
  })
 

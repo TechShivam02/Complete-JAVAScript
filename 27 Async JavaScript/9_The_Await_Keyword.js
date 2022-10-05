@@ -8,10 +8,8 @@
 */
 
 
-
-
-const delayColorChange = (color , delay) => {
-    return new Promise((resolve , reject) =>{
+const delayColorChange = (color, delay) => {
+    return new Promise((resolve, reject) => {
         setTimeout(() => {
             document.body.style.backgroundColor = color;
             resolve();
@@ -126,36 +124,36 @@ async function rainbow(){
 
 
 
-      // output  // red  then ornage then blue then yellow then green then pink 
- 
-async function rainbow(){
-    
-    await delayColorChange("red" , 1000);
-    
-    await delayColorChange("orange" , 1000);
-    await delayColorChange("blue" , 1000);
+// output  // red  then ornage then blue then yellow then green then pink 
 
-    await delayColorChange("yellow" , 1000);
+async function rainbow() {
 
-    await delayColorChange("green" , 1000);
+    await delayColorChange("red", 1000);
 
-    await delayColorChange("pink" , 1000);
+    await delayColorChange("orange", 1000);
+    await delayColorChange("blue", 1000);
 
-    
+    await delayColorChange("yellow", 1000);
+
+    await delayColorChange("green", 1000);
+
+    await delayColorChange("pink", 1000);
+
+
     return "All Done"
-    
+
     // await : will only pause the exec of red , red perform then  
     // await : will only pause the exec of orange , orange perform then
     // await : will only pause the exec of blue , blue perform then
     // and so on ...........................
 
     // once all done , it will be resolved with promise value of  ALL DONE
-      
+
 }
 
 
 
 rainbow()
-.then((data)=>{
-    console.log("Is All Perform : " + data);
-})
+    .then((data) => {
+        console.log("Is All Perform : " + data);
+    })
